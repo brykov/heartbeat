@@ -18,7 +18,7 @@ curl -v -X POST -d '{"app_id":"app1","customer_id":"customer1","video_id":"video
 
 curl -v -H Content-Type:application/json "http://localhost:9000/v1/heartbeat/number_of_videos?app_id=app1&customer_id=customer1"
 
-curl -v -H Content-Type:application/json "http://localhost:9000/v1/heartbeat/number_of_viwers?app_id=app1&video_id=video1"
+curl -v -H Content-Type:application/json "http://localhost:9000/v1/heartbeat/number_of_viewers?app_id=app1&video_id=video1"
 
 ```
 
